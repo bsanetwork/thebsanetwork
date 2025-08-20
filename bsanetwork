@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyer Seller Advocacy Network</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; }
+        header, section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+        header { background-color: #f5f5f5; text-align: center; }
+        h1, h2 { color: #222; }
+        .btn { display: inline-block; padding: 12px 24px; margin-top: 20px; background-color: #007BFF; color: #fff; text-decoration: none; border-radius: 5px; }
+        .services, .steps { display: flex; flex-wrap: wrap; gap: 20px; }
+        .service, .step { flex: 1 1 250px; background-color: #f9f9f9; padding: 20px; border-radius: 5px; text-align: center; }
+        img { max-width: 100%; border-radius: 5px; margin-top: 20px; }
+        form { display: flex; flex-direction: column; gap: 10px; max-width: 500px; margin: auto; }
+        input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; width: 100%; }
+    </style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<header>
+    <h1>Guiding Buyers & Sellers to Smarter Real Estate Decisions</h1>
+    <p>Connecting you with trusted agents and resources across the United States.</p>
+    <a href="#contact" class="btn">Schedule a Free Consultation</a>
+    <img src="images/hero.jpg" alt="Real estate consultant with client">
+</header>
+
+<!-- About Section -->
+<section id="about">
+    <h2>Your Trusted Real Estate Advocate</h2>
+    <p>At Buyer Seller Advocacy Network, our mission is simple: to educate and advocate for home buyers and sellers. We connect clients with vetted real estate agents who provide real value, helping you navigate the buying or selling process with confidence.</p>
+    <div class="services">
+        <div class="service">
+            <h3>Education & Guidance</h3>
+            <p>Personalized education and guidance for buyers and sellers.</p>
+        </div>
+        <div class="service">
+            <h3>Vetted Agents</h3>
+            <p>Referrals to trustworthy, vetted agents.</p>
+        </div>
+        <div class="service">
+            <h3>Save Money</h3>
+            <p>Strategies to avoid common pitfalls and save money.</p>
+        </div>
+    </div>
+    <img src="images/about.jpg" alt="Team of real estate consultants collaborating">
+</section>
+
+<!-- How It Works Section -->
+<section id="how-it-works">
+    <h2>How We Help You</h2>
+    <div class="steps">
+        <div class="step">
+            <h3>Reach Out</h3>
+            <p>Contact us with your real estate needs.</p>
+        </div>
+        <div class="step">
+            <h3>Get Matched</h3>
+            <p>We connect you with a reliable, vetted agent.</p>
+        </div>
+        <div class="step">
+            <h3>Navigate Confidently</h3>
+            <p>Our experts guide you through the process every step of the way.</p>
+        </div>
+    </div>
+    <a href="#contact" class="btn">Get Started Today</a>
+    <img src="images/how-it-works.jpg" alt="Step-by-step real estate process illustration">
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Let’s Get Started</h2>
+    <p>Have questions or ready to find the right agent? Fill out the form below or reach us directly:</p>
+    <p>Email: info@[yourdomain].com | Phone: (xxx) xxx-xxxx</p>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="phone" placeholder="Your Phone (optional)">
+        <textarea name="message" rows="5" placeholder="Your Message / Notes"></textarea>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+    <img src="images/contact.jpg" alt="Customer service agent ready to help">
+</section>
+
+</body>
+</html>
